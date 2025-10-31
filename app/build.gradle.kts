@@ -46,4 +46,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Temi SDK 추가
+    implementation("com.robotemi:sdk:1.136.0")
 }
